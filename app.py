@@ -5,7 +5,7 @@ import imaplib
 import time
 import email
 from flask_caching import Cache
-from gamil import process_resumes_and_attachments
+from gmail import process_resumes_and_attachments
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Change this to a strong secret key
